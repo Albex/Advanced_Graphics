@@ -1,0 +1,204 @@
+﻿La génération a démarré 28/02/2013 14:18:14.
+     1>Projet "C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Graphics C2 Part2.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp sphere.cpp
+         sphere.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         main.cpp
+     1>main.cpp(11): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+     1>main.cpp(15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>main.cpp(17): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+     1>main.cpp(23): warning C4305: 'argument' : troncation de 'double' à 'float'
+     1>main.cpp(40): warning C4305: 'argument' : troncation de 'double' à 'float'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(32): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(21) : lors de la compilation de la fonction membre 'ImageData<T> ImageData<T>::load(std::string)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(13) : voir la référence à l'instanciation de la fonction modèle 'ImageData<T> ImageData<T>::load(std::string)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(13) : voir la référence à l'instanciation de la classe modèle 'ImageData<T>' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(35): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(41): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(44): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(46): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(49): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(51): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(65): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(66): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(68): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(69): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(75): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(76): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(79): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(80): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(97): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(99): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(103): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(105): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(109): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(111): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(117): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(237) : voir la déclaration de 'fscanf'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(131): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(133): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(26): warning C4101: 'y' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(26): warning C4101: 'x' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(26): warning C4101: 'distance' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(180): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(156) : lors de la compilation de la fonction membre 'void ImageData<T>::save(std::string)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(37) : voir la référence à l'instanciation de la fonction modèle 'void ImageData<T>::save(std::string)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(194): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(161): warning C4101: 'y' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(161): warning C4101: 'x' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(159): warning C4101: 'type' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(161): warning C4101: 'distance' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(158): warning C4101: 'buf' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(160): warning C4101: 'k' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(160): warning C4101: 'l' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(160): warning C4101: 'j' : variable locale non référencée
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(250): warning C4018: '<' : incompatibilité signed/unsigned
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(249) : lors de la compilation de la fonction membre 'void ImageData<T>::tonMapping(ImageData<T>,int,float)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(23) : voir la référence à l'instanciation de la fonction modèle 'void ImageData<T>::tonMapping(ImageData<T>,int,float)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(252): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(255): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(256): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(257): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(299): warning C4018: '<' : incompatibilité signed/unsigned
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(294) : lors de la compilation de la fonction membre 'int *ImageData<T>::sample(ImageData<T>,int)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(16) : voir la référence à l'instanciation de la fonction modèle 'int *ImageData<T>::sample(ImageData<T>,int)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(302): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(305): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(309): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(310): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(312): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(320): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(324): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(333): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(334): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(346): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(370): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(359) : lors de la compilation de la fonction membre 'int *ImageData<T>::phongSample(ImageData<T>,double,int)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(18) : voir la référence à l'instanciation de la fonction modèle 'int *ImageData<T>::phongSample(ImageData<T>,double,int)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(371): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(439): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(425) : lors de la compilation de la fonction membre 'ImageData<T> ImageData<T>::relightSphere(const ImageData<T> &,int *,int,const Sphere &)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(21) : voir la référence à l'instanciation de la fonction modèle 'ImageData<T> ImageData<T>::relightSphere(const ImageData<T> &,int *,int,const Sphere &)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : voir la déclaration de 'fopen'
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(392): warning C4018: '<' : incompatibilité signed/unsigned
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(378) : lors de la compilation de la fonction membre 'void ImageData<T>::printSample(ImageData<T>,int *,int)' de la classe modèle
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 main.cpp(26) : voir la référence à l'instanciation de la fonction modèle 'void ImageData<T>::printSample(ImageData<T>,int *,int)' en cours de compilation
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(408): warning C4018: '<' : incompatibilité signed/unsigned
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(405) : lors de la compilation de la fonction membre 'float ImageData<T>::integralLight(ImageData<T>)' de la classe modèle
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(438) : voir la référence à l'instanciation de la fonction modèle 'float ImageData<T>::integralLight(ImageData<T>)' en cours de compilation
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(410): warning C4018: '<' : incompatibilité signed/unsigned
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(413): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(220): warning C4018: '<' : incompatibilité signed/unsigned
+                 main.cpp(25) : voir la référence à l'instanciation de la fonction modèle 'ImageData<T> ImageData<float>::convert<unsigned char>(ImageData<float>)' en cours de compilation
+                 with
+                 [
+                     T=unsigned char
+                 ]
+                 main.cpp(25) : voir la référence à l'instanciation de la fonction modèle 'ImageData<T> ImageData<float>::convert<unsigned char>(ImageData<float>)' en cours de compilation
+                 with
+                 [
+                     T=unsigned char
+                 ]
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(234): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(235): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+     1>c:\users\albex\dropbox\advanced graphics c2\part2\image.hpp(236): warning C4244: '=' : conversion de 'float' en 'unsigned char', perte possible de données
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Debug\Graphics C2 Part2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Debug\Graphics C2 Part2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Debug\Graphics C2 Part2.lib" /MACHINE:X86 Debug\main.obj
+         Debug\sphere.obj
+         Graphics C2 Part2.vcxproj -> C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Debug\Graphics C2 Part2.exe
+     1>Génération du projet "C:\Users\Albex\Dropbox\Advanced Graphics C2\Part2\Graphics C2 Part2.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:11.83
